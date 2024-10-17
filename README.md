@@ -4,7 +4,7 @@ A simple Python script that converts all `.m4a` files in a specified folder to `
 
 
 Note: **you need to update the path of files so the code works without anyproblems**
-
+and this is my first code dont be hard <3
 
 ## Features
 - Batch conversion of `.m4a` files to `.mp3`.
