@@ -2,6 +2,10 @@
 
 A simple Python script that converts all `.m4a` files in a specified folder to `.mp3` format using the `pydub` library and `ffmpeg`.
 
+
+Note: **you need to update the path of files so the code works without anyproblems**
+
+
 ## Features
 - Batch conversion of `.m4a` files to `.mp3`.
 - Displays a summary of files converted and remaining.
