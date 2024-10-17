@@ -5,9 +5,11 @@ from colorama import init, Fore, Style
 # Initialize colorama
 init(autoreset=True)
 
-# Constants for the input and output folders
-INPUT_FOLDER = r"C:\Users\adnan\Desktop\f"  # Path to the folder with .m4a files
-OUTPUT_FOLDER = r"C:\Users\adnan\Desktop\c"  # Path to the folder where converted .mp3 files will be saved
+# CHANGE THE FOLDERS PATH # 
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ # 
+INPUT_FOLDER = r"C:\Users\PATH\Desktop\f"  # Path to the folder with .m4a files
+OUTPUT_FOLDER = r"C:\Users\PATH\Desktop\c"  # Path to the folder where converted .mp3 files will be saved
+# ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ #
 
 def create_output_folder(folder):
     """Create the output folder if it doesn't exist."""
